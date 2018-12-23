@@ -1,9 +1,10 @@
 # This is Git's per-user configuration file.
-[core]
-	editor = subl -n -w
-	excludesfile = /Users/thejimbirch/.gitignore_global
 [user]
+# Add git email in below.
 	name = Jim Birch
 	email = ADD_GIT_EMAIL_HERE
+[core]
+	editor = subl -n -w
+	excludesfile = /Users/jim/.gitignore_global
 [alias]
 	dad = !curl https://icanhazdadjoke.com/ && git add
